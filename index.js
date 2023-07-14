@@ -13,6 +13,10 @@ app.get('/video', (req, res) => {
     if(range === undefined){
         res.status(400).send('Require range in headers')
     }
+    else{
+        const videoSize = fs.statSync('pexels_videos_2282013 (2160p).mp4').size
+        res.send('Video size: ' + videoSize.toString())
+    }
 })
 
 app.listen(8000, () => {
