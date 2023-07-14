@@ -1,0 +1,23 @@
+{
+  "name": "video-streaming-server-with-nodejs",
+  "version": "1.0.0",
+  "description": "Build a video streaming server with nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/duncanchiu409/video-streaming-server-with-nodejs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/duncanchiu409/video-streaming-server-with-nodejs/issues"
+  },
+  "homepage": "https://github.com/duncanchiu409/video-streaming-server-with-nodejs#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1"
+  }
+}
